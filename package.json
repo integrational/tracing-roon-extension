@@ -1,0 +1,32 @@
+{
+    "name"        : "tracing-roon-extension",
+    "version"     : "0.0.4",
+    "description" : "Roon Extension tracing all interactions supported by the Roon API for Javascript",
+    "main"        : "app.js",
+    "license"     : "Apache-2.0",
+    "repository"  : "github:integrational/tracing-roon-extension",
+    "author"      : {
+        "name"    : "Gerald Loeffler",
+        "email"   : "gerald@integrational.eu"
+    },
+
+    "config"           : {
+        "extension_id" : "org.integrational.roon.extension.tracing",
+        "website"      : "https://github.com/integrational/tracing-roon-extension"
+    },
+
+    "dependencies"                    : {
+        "node-roon-api"                : "github:roonlabs/node-roon-api",
+
+        "node-roon-api-browse"         : "github:roonlabs/node-roon-api-browse",
+        "node-roon-api-image"          : "github:roonlabs/node-roon-api-image",
+        "node-roon-api-transport"      : "github:roonlabs/node-roon-api-transport",
+        
+        "node-roon-api-status"         : "github:roonlabs/node-roon-api-status",
+        "node-roon-api-settings"       : "github:roonlabs/node-roon-api-settings",
+        "node-roon-api-volume-control" : "github:roonlabs/node-roon-api-volume-control",
+        "node-roon-api-source-control" : "github:roonlabs/node-roon-api-source-control",
+
+        "underscore.string"            : "github:esamattis/underscore.string"
+    }
+}

@@ -1,0 +1,9 @@
+= tracing-roon-extension: Roon Extension tracing all interactions supported by the Roon API for Javascript
+
+== Log
+
+. `node -v` -> `v17.4.0`
+. Create `package.json`
+. `npm install`
+. Create `app.js`
+. `node .`
